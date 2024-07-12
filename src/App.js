@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+
+
+const logo = 'https://constructoralp.com.mx/wp-content/uploads/2021/01/tubacero.png'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className='page'>
+      <div className='page-header'>
+        <img src={logo}></img>
+      </div>
+      <div className='page-contenido'>
+        <div className='page-aside-rigth'>
+          <Busqueda></Busqueda>
+        </div>
+        <div className='page-informacion'>
+
+        </div>
+        <div className='page-aside-left'>
+
+        </div>
+      </div>
+      
+      <div className='page-footer'>
+
+      </div>
+      
+      
+    </main>
   );
 }
 
