@@ -1,0 +1,42 @@
+[
+    {
+      "no_parte": 1,
+      "nombre_articulo": "Artículo A",
+      "palabra_clave": "clave1",
+      "ubicacion": "Almacén 1",
+      "cantidad": 100,
+      "cantidad_maxima": 1000,
+      "cantidad_minima": 10,
+      "prioridad": "alta"
+    },
+    {
+        "no_parte": 2,
+        "nombre_articulo": "Artículo B",
+        "palabra_clave": "clave2",
+        "ubicacion": "Almacén 2",
+        "cantidad": 100,
+        "cantidad_maxima": 1000,
+        "cantidad_minima": 10,
+        "prioridad": "baja"
+      },
+      {
+        "no_parte": 3,
+        "nombre_articulo": "Artículo C",
+        "palabra_clave": "clave3",
+        "ubicacion": "Almacén 3",
+        "cantidad": 100,
+        "cantidad_maxima": 1000,
+        "cantidad_minima": 10,
+        "prioridad": "media"
+      },
+      {
+        "no_parte": 4,
+        "nombre_articulo": "Artículo D",
+        "palabra_clave": "clave4",
+        "ubicacion": "Almacén 4",
+        "cantidad": 100,
+        "cantidad_maxima": 1000,
+        "cantidad_minima": 10,
+        "prioridad": "alta"
+      }
+  ]
