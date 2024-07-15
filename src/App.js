@@ -6,7 +6,7 @@ import TablaArticulos from './componentes/TablaArticulos';
 
 
 function App() {
-  const logo = 'https://constructoralp.com.mx/wp-content/uploads/2021/01/tubacero.png';
+  const logo = 'https://cdn-icons-png.flaticon.com/512/2823/2823437.png';
   const misOpciones = [
     {indice: 1, valor:"No. de parte"},
     {indice: 2, valor:"nombre de articulo"},

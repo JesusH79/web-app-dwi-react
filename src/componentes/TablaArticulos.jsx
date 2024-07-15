@@ -56,9 +56,9 @@ const TablaArticulos = () => {
       </table>
 
       {modalVisible && (
-        <div className="informacion-articulo-moda">
-          <div className="informacion-articulo-moda__contenido">
-            <span className="informacion-articulo-moda__close" onClick={closeModal}>&times;</span>
+        <div className="informacion-articulo-modal">
+          <div className="informacion-articulo-modal__contenido">
+            <span className="informacion-articulo-modal__close" onClick={closeModal}>&times;</span>
             <h2>Detalles del Artículo</h2>
             <p><strong>No. Parte:</strong> {articuloSeleccionado.no_parte}</p>
             <p><strong>Nombre Artículo:</strong> {articuloSeleccionado.nombre_articulo}</p>
