@@ -2,7 +2,6 @@ import './App.css';
 import Busqueda from './componentes/Busqueda';
 import ListaOpciones  from './componentes/ListaOpciones';
 import TablaArticulos from './componentes/TablaArticulos';
-import BotonAgregarArticulo from './componentes/BotonAgregarArticulo';
 //import datoArticulos from './json/datoArticulos.json';
 
 
@@ -42,7 +41,7 @@ function App() {
           
         </div>
         <div className='contenido__aside-left'>
-          <BotonAgregarArticulo></BotonAgregarArticulo>
+          
         </div>
       </div>
       

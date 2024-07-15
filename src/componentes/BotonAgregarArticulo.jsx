@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import FormularioArticulo from './FormularioArticulo'; // Asegúrate de que la ruta al componente sea correcta
+import FormularioArticulo from './FormularioArticulo';
 
-const BotonAgregarArticulo = () => {
+const BotonAgregarArticulo = ({ onSave }) => {
   const [mostrarModal, setMostrarModal] = useState(false);
 
   return (
     <div>
-      <button onClick={() => setMostrarModal(true)}>Agregar Artículo</button>
+      <button className="boton-agregar" onClick={() => setMostrarModal(true)}>Agregar Artículo</button>
       {mostrarModal && (
         <div className="modal">
-          <FormularioArticulo onClose={() => setMostrarModal(false)} />
+          <FormularioArticulo onClose={() => setMostrarModal(false)} onSave={onSave} />
         </div>
       )}
     </div>
@@ -17,3 +17,4 @@ const BotonAgregarArticulo = () => {
 };
 
 export default BotonAgregarArticulo;
+
